@@ -1,3 +1,5 @@
+import "./globals.css";
+
 export const metadata = {
   title: "Janet Rumsey Books",
   description: "Gentle books for little ones and the grownups who love them.",
@@ -6,7 +8,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body style={{ margin: 0 }}>{children}</body>
+      <body>{children}</body>
     </html>
   );
 }
