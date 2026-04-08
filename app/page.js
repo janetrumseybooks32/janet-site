@@ -245,7 +245,6 @@ export default function JanetAuthorLandingPage() {
             <form
               action="https://formspree.io/f/mnjoregl"
               method="POST"
-              onSubmit={() => alert("Thank you! Your message has been sent.")}
               className="mt-6 space-y-3 rounded-[1.6rem] border border-amber-200 bg-white/85 p-5 shadow-sm"
             >
               <input type="hidden" name="form_type" value="invite" />
