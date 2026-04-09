@@ -218,7 +218,7 @@ export default function JanetAuthorLandingPage() {
               Her work brings together watercolor softness, mindful storytelling, and a tactile, child-centered sense of beauty.
             </p>
             <div className="mt-6 rounded-[1.6rem] border border-amber-200 bg-[#f9f6f1] p-5 text-sm leading-7 text-amber-900/80">
-              This is a lovely place to add your real author photo, a short personal note, or a line about living, gardening, and creating in Northern California.
+              Hi! Thank you for being a part of my community. My goal is to inspire and grow with every connection, creation and experience. Thank you for being a part of my journey. 
             </div>
           </div>
 
