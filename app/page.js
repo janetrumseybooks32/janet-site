@@ -334,12 +334,10 @@ export default function JanetAuthorLandingPage() {
       <section className="mx-auto max-w-6xl px-6 pb-16 md:px-10">
         <div className="grid gap-6 md:grid-cols-3">
           <div className="rounded-[2rem] border border-amber-200/80 bg-white/85 p-6 shadow-sm backdrop-blur-sm">
-            <h3 className="text-lg font-semibold">What to add next</h3>
+            <h3 className="text-lg font-semibold">What is next</h3>
             <ul className="mt-4 space-y-3 text-sm leading-6 text-amber-900/80">
-              <li>• Real book cover mockups</li>
-              <li>• Buy links for Amazon, Lulu, or local shops</li>
-              <li>• An author photo and short bio</li>
-              <li>• A real connected contact form</li>
+              <li>• Painting wall</li>
+              <li>• Handmade Books</li>
             </ul>
           </div>
           <div className="rounded-[2rem] border border-amber-200/80 bg-white/85 p-6 shadow-sm backdrop-blur-sm">
@@ -353,9 +351,9 @@ export default function JanetAuthorLandingPage() {
             </ul>
           </div>
           <div className="rounded-[2rem] border border-amber-200/80 bg-white/85 p-6 shadow-sm backdrop-blur-sm">
-            <h3 className="text-lg font-semibold">Brand feeling</h3>
+            <h3 className="text-lg font-semibold">Looking For</h3>
             <p className="mt-4 text-sm leading-6 text-amber-900/80">
-              Calm, tactile, natural, child-centered, and quietly premium. Let the illustrations carry emotion while the site stays easy to navigate.
+              People to collaborate with!
             </p>
           </div>
         </div>
