@@ -159,7 +159,11 @@ export default function JanetAuthorLandingPage() {
   <img
     src="/bounce.jpg"
     alt="In Out Bounce book cover"
-    className="h-56 object-contain"
+  <div className="rounded-[1.75rem] bg-white/70 p-8 shadow-sm flex flex-col items-center">
+  <img
+    src="/bounce.jpg"
+    alt="In Out Bounce book cover"
+    className="h-64 object-contain"
   />
 
   <a
