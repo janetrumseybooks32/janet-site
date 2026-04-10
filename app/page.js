@@ -150,9 +150,6 @@ export default function JanetAuthorLandingPage() {
                       </p>
                     </div>
                     <div className="space-y-4">
-                      <div className="mx-auto flex h-28 w-28 items-center justify-center rounded-full border border-stone-300 bg-white/85 shadow-sm">
-                        <div className="h-16 w-16 rounded-full bg-gradient-to-br from-amber-100 via-rose-100 to-emerald-100" />
-                      </div>
                       <div className="rounded-[1.25rem] bg-white/70 p-3 shadow-sm">
                         <img src="/bounce.jpg" alt="In Out Bounce book cover" className="mx-auto h-40 object-contain" />
                       </div>
