@@ -155,16 +155,21 @@ export default function JanetAuthorLandingPage() {
                       </div>
                     <div className="rounded-[1.25rem] bg-white/70 p-3 shadow-sm">
   <img src="/bounce.jpg" alt="In Out Bounce book cover" className="mx-auto h-40 object-contain" />
-  <div className="mt-4 flex justify-center">
-    <a
-      href="https://www.amazon.com/Out-Bounce-Janet-Rumsey/dp/B0FBK1R42L"
-      target="_blank"
-      rel="noreferrer"
-      className="rounded-xl bg-stone-900 px-5 py-2 text-sm text-white shadow-sm hover:-translate-y-0.5 transition"
-    >
-      Buy the Book
-    </a>
-  </div>
+  <div className="rounded-[1.5rem] bg-white/70 p-6 shadow-sm flex flex-col items-center">
+  <img
+    src="/bounce.jpg"
+    alt="In Out Bounce book cover"
+    className="h-56 object-contain"
+  />
+
+  <a
+    href="https://www.amazon.com/Out-Bounce-Janet-Rumsey/dp/B0FBK1R42L"
+    target="_blank"
+    rel="noreferrer"
+    className="mt-6 rounded-2xl bg-stone-900 px-6 py-3 text-sm text-white shadow-sm hover:-translate-y-0.5 transition"
+  >
+    Buy the Book
+  </a>
 </div>
                     </div>
                   </div>
