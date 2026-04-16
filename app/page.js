@@ -85,21 +85,21 @@ export default function JanetAuthorLandingPage() {
           </div>
         </div>
 
-        <div className="relative mx-auto grid max-w-6xl gap-12 px-6 py-14 md:grid-cols-2 md:items-center md:px-10 lg:py-20">
+        className="relative mx-auto grid max-w-6xl gap-8 px-6 py-10 md:gap-12 md:px-10 md:py-14 md:grid-cols-2 md:items-center lg:py-20"
           <div className="space-y-7">
             <div className="inline-flex rounded-full border border-amber-200 bg-white/80 px-4 py-2 text-xs uppercase tracking-[0.28em] text-amber-800/70 shadow-sm">
               Watercolor worlds • books • storytime
             </div>
             <div className="space-y-5">
-              <h1 className="max-w-2xl text-4xl font-semibold leading-tight md:text-6xl">
+         className="max-w-2xl text-4xl font-semibold leading-[0.95] sm:text-5xl md:text-6xl"
                 Gentle books for little ones and the grownups who love them.
               </h1>
-              <p className="max-w-xl text-lg leading-8 text-amber-900/80">
+              <p className="max-w-xl text-base leading-8 text-amber-900/80 md:text-lg">
                 Picture books rooted in breath, movement, nature, and presence. Created with warmth,
                 watercolor softness, and a deep love for the small details of childhood.
               </p>
             </div>
-            <div className="flex flex-wrap gap-3">
+            <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap">
               <a
                 href="#books"
                 className="rounded-[1.35rem] bg-stone-900 px-5 py-3 text-sm font-medium text-white shadow-sm transition hover:-translate-y-0.5"
@@ -125,9 +125,9 @@ export default function JanetAuthorLandingPage() {
             </div>
           </div>
 
-          <div className="mx-auto w-full max-w-md">
-            <div className="rounded-[2.25rem] border border-amber-200 bg-white/85 p-5 shadow-xl shadow-stone-300/30 backdrop-blur-sm">
-              <div className="rounded-[1.8rem] bg-gradient-to-br from-amber-200 via-rose-100 to-yellow-100 p-6">
+          <div className="mx-auto w-full max-w-sm md:max-w-md">
+            <div className="rounded-[2rem] border border-amber-200 bg-white/85 p-4 shadow-xl shadow-stone-300/30 backdrop-blur-sm md:rounded-[2.25rem] md:p-5">
+              <div className="rounded-[1.5rem] bg-gradient-to-br from-amber-200 via-rose-100 to-yellow-100 p-4 md:rounded-[1.8rem] md:p-6">
                 <div
                   className="aspect-[4/5] rounded-[1.75rem] border border-white/80 p-6 shadow-inner"
                   style={{
